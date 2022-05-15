@@ -1,0 +1,24 @@
+@import '../_custom';
+@import '../_mixins';
+
+.logo{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1rem;
+}
+
+nav{
+    @include gradient;
+    font-family: 'Ubuntu', sans-serif;
+    #navbarNav{
+        li{
+            padding: 0 2rem 0 2rem;
+            font-weight: 400;
+
+            a{
+                color: $secondary; 
+            }
+        }
+    }
+}

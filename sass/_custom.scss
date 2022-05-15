@@ -1,0 +1,12 @@
+
+$camel: #BCA082ff;
+$coyote-brown: #86614Dff;
+$bone: #D8D2BBff;
+$raisin-black: #272B37ff;
+$grullo: #9E998Aff;
+
+$primary: $camel;
+$primary-light: rgb(183, 171, 159);
+$secondary: $raisin-black;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

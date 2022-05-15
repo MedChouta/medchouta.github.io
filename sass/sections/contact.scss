@@ -1,0 +1,6 @@
+@import '../_custom';
+@import '../_mixins';
+
+.contact{
+    @include gradient;
+}

@@ -44523,6 +44523,12 @@ textarea.form-control-lg {
 }
 .contact {
   background: linear-gradient(to right, #bca082, rgb(183, 171, 159));
+  padding-bottom: 4em;
+  text-align: center;
+}
+.contact a:visited, .contact a {
+  text-decoration: none;
+  color: #272b37;
 }
 
 /*# sourceMappingURL=style.css.map */

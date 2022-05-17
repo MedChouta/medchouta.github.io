@@ -3,4 +3,11 @@
 
 .contact{
     @include gradient;
+    padding-bottom: 4em;
+    text-align: center;
+    
+    a:visited, a{
+        text-decoration: none;
+        color: $secondary;
+    }
 }
